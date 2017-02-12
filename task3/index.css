@@ -1,0 +1,122 @@
+*
+{
+    font-size: 62.5%;
+
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    font-family: HiraginoSans ;
+
+    background-color: rgb(104,205,213);
+}
+.head
+{
+    line-height: 88px;
+
+    overflow: hidden;
+
+    height: 88px;
+
+    color: rgb(248,246,245);
+    background-color: rgb(34,41,44);
+}
+.head span
+{
+    display: block;
+    float: left;
+}
+.return
+{
+    font-size: 2.6rem;
+
+    width: 20%;
+    margin-left: 2%;
+    padding-left: 4%;
+
+    cursor: pointer;
+    text-align: left;
+
+    background-image: url('images/task3_03.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.title
+{
+    font-size: 3.4rem;
+
+    width: 48%;
+
+    text-align: center;
+}
+.set
+{
+    width: 24%;
+    height: 88px;
+    margin-right: 2%;
+
+    cursor: pointer;
+
+    background-image: url('images/task3_06.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.main img
+{
+    display: block;
+}
+.back
+{
+    margin: 2% 0 4% 5.5%;
+
+    cursor: pointer;
+}
+.logo
+{
+    margin: auto;
+}
+.main p
+{
+    font-size: 3rem;
+    line-height: 54px;
+
+    width: 74%;
+    margin: 10% 13% 15%;
+
+    text-align: justify;
+
+    color: rgb(252,252,254);
+}
+.footer img,
+span
+{
+    display: block;
+}
+.footer div
+{
+    font-size: 2.4rem;
+
+    margin-bottom: 18%;
+
+    cursor: pointer;
+    text-align: center;
+
+    color: rgb(252,252,254);
+}
+.footer span
+{
+    margin-top: 2%;
+}
+.left
+{
+    float: left;
+
+    margin-left: 19%;
+}
+.right
+{
+    float: right;
+
+    margin-right: 19%;
+}

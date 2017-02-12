@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.big{
+	margin: auto;
+	max-width: 300px;
+}
+.small{
+	width:30%;
+	padding: 15% 0;
+	margin:1.66%;
+	background-color: rgb(232,131,13);
+	float: left;
+	border-radius:10%;
+}
