@@ -1,24 +1,27 @@
-*
-{
-    font-size: 62.5%;
-
-    margin: 0;
-    padding: 0;
-}
 @font-face
 {
     font-family: Hiragino Sans GB;
     src:url("font/HiraginoSansGB-W3.ttf");
+}
+*
+{
+    margin: 0;
+    padding: 0;
 }
 html
 {
     font-family: Hiragino Sans GB ;
 
     background-color: rgb(104,205,213);
+
+    font-size: 62.5%;
+}
+img{
+    display: block;
 }
 .head
 {
-    line-height: 88px;
+    line-height:88px;
 
     overflow: hidden;
 
@@ -67,24 +70,27 @@ html
     background-repeat: no-repeat;
     background-position: right;
 }
-.main img
-{
-    display: block;
-}
+
 .back
 {
     margin: 2% 0 4% 5.5%;
 
     cursor: pointer;
+
+    width: 8%;
+
+    max-width: 55px;
 }
 .logo
 {
     margin: auto;
+    width: 29%;
+    max-width: 182px;
 }
 .main p
 {
-    font-size: 3rem;
-    line-height: 54px;
+    font-size:3rem;
+    line-height:1.8;
 
     width: 74%;
     margin: 10% 13% 15%;
@@ -93,10 +99,14 @@ html
 
     color: rgb(252,252,254);
 }
-.footer img,
-span
-{
-    display: block;
+.footer{
+    width: 100%;
+    overflow: hidden;
+}
+.footer img{
+    width:26%;
+    max-width:88px;
+    margin: auto;
 }
 .footer div
 {
@@ -108,20 +118,98 @@ span
     text-align: center;
 
     color: rgb(252,252,254);
+
+    width: 50%;
+
+    overflow: hidden;
+
 }
 .footer span
-{
-    margin-top: 2%;
+{   
+    display: block;
+    margin: 2% auto;
+    font-size: 2.4rem;
 }
 .left
 {
     float: left;
+    margin: auto;
 
-    margin-left: 19%;
 }
 .right
 {
     float: right;
+    margin: auto;
 
-    margin-right: 19%;
 }
+@media screen and (max-width: 321px){
+    .return{
+        font-size: 1.3rem;
+    }
+    .title{
+        font-size: 1.7rem;
+    }
+   
+    .main p{
+        font-size: 1.5rem;
+    }
+    .footer span{
+        font-size: 1.3rem;
+    }
+    .return{
+        -webkit-background-size: 20% 30%;
+        background-size: 20% 30%;
+    }
+    .set{
+        -webkit-background-size: 40% 10%;
+        background-size: 40% 10%;
+    }
+}
+@media screen and (max-width:361px){
+    .return{
+        font-size: 1.46rem;
+    }
+    .title{
+        font-size: 1.9rem;
+    }
+    .main p{
+        font-size: 1.7rem;
+    }
+    .footer span{
+        font-size: 1.4rem;
+    }
+    .return{
+        -webkit-background-size: 15% 30%;
+        background-size: 15% 30%;
+    }
+    .set{
+        -webkit-background-size: 40% 15%;
+        background-size: 40% 15%;
+    }
+}
+@media screen and (max-width:415px){
+    .return{
+        font-size: 1.68rem;
+    }
+    .title{
+        font-size: 2.2rem;
+    }
+    .main p{
+        font-size: 1.9rem;
+    }
+    .footer span{
+        font-size: 1.54rem;
+    }
+    .return{
+        -webkit-background-size: 20% 30%;
+        background-size: 20% 30%;
+    }
+    .set{
+        -webkit-background-size: 40% 15%;
+        background-size: 40% 15%;
+    }
+}
+
+
+
+
