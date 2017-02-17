@@ -1,0 +1,407 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    font-family: '黑体';
+    font-size: 625%;
+
+    background-color: #fff;
+}
+.header
+{
+    font-size: .34rem;
+
+    position: fixed;
+
+    width: 100%;
+    height: .88rem;
+
+    background-color: #5fc0cd;
+}
+.btns
+{
+    line-height: .72rem;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 2.86rem;
+    height: .72rem;
+
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+         -o-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    text-align: center;
+
+    border-radius: .08rem;
+    background-color: #55a8b3;
+}
+.left
+{
+    display: block;
+    float: left;
+
+    width: 50%;
+    height: 100%;
+
+    cursor: pointer;
+
+    color: #fff;
+    border-radius: .08rem;
+    background-color: #55a8b3;
+}
+.right
+{
+    display: block;
+    float: left;
+
+    width: 50%;
+    height: 100%;
+
+    cursor: pointer;
+
+    color: #5fc0cd;
+    border-radius: .08rem;
+    background-color: #fff;
+}
+.header img
+{
+    float: right;
+
+    width: .4rem;
+    height: .46rem;
+    margin-right: .3rem;
+
+    cursor: pointer;
+    -webkit-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+         -o-transform: translateY(50%);
+            transform: translateY(50%);
+}
+.main
+{
+    overflow: auto;
+
+    margin-bottom: 1rem;
+    padding-top: .88rem;
+}
+.nav
+{
+    font-size: .28rem;
+    line-height: .8rem;
+
+    width: 7.2rem;
+    height: .8rem;
+
+    color: #afbac0;
+}
+.nav span
+{
+    display: block;
+    float: left;
+}
+.nav-left
+{
+    width: 1.72rem;
+    padding-left: .68rem;
+
+    background-image: url('images/sanjiao.png');
+    background-repeat: no-repeat;
+    background-position: 2.16rem ;
+    -webkit-background-size: .14rem .09rem;
+            background-size: .14rem .09rem;
+}
+.nav-mid
+{
+    width: 2.4rem;
+
+    text-align: center;
+
+    background-image: url('images/line.png'),url('images/line.png'),url('images/sanjiao.png');
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-position: left,right,2.16rem;
+    -webkit-background-size: .01rem .66rem,.01rem .66rem,.14rem .09rem;
+            background-size: .01rem .66rem,.01rem .66rem,.14rem .09rem;
+}
+.nav-right
+{
+    width: 1.9rem;
+    padding-left: .5rem;
+
+    background-image: url('images/sanjiao.png');
+    background-repeat: no-repeat;
+    background-position: 1.97rem ;
+    -webkit-background-size: .14rem .09rem;
+            background-size: .14rem .09rem;
+}
+ul
+{
+    list-style: none;
+}
+li
+{
+    padding-left: .3rem;
+
+    border-top: .01rem solid #e1e5e7;
+}
+table
+{
+    width: 100%;
+    height: 1.79rem;
+}
+td
+{
+    padding-left: .4rem;
+}
+.date
+{
+    font-size: .26rem;
+
+    color: #b3b3b3;
+    background-image: url('images/calendar.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    -webkit-background-size: .25rem .24rem ;
+            background-size: .25rem .24rem ;
+}
+.time
+{
+    font-size: .28rem;
+}
+.price
+{
+    font-size: .3rem;
+
+    padding-right: .55rem;
+
+    cursor: pointer;
+    text-align: right;
+
+    color: #eb5f3a;
+    border-right: .3rem solid white;
+    background-image: url('images/jiantou.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    -webkit-background-size: .23rem .3rem ;
+            background-size: .23rem .3rem ;
+}
+.location
+{
+    font-size: .26rem;
+
+    color: #b3b3b3;
+    background-image: url('images/location2.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    -webkit-background-size: .25rem .24rem ;
+            background-size: .25rem .24rem ;
+}
+.footer
+{
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+    height: 1rem;
+
+    background-color: #f8fafb;
+}
+.footer-box
+{
+    width: 3.9rem;
+    height: 100%;
+    margin: auto;
+}
+.footer-left
+{
+    float: left;
+
+    width: .48rem;
+    height: .87rem;
+    padding-top: .13rem;
+    padding-right: .82rem;
+
+    cursor: pointer;
+}
+.footer-left img
+{
+    display: block;
+    float: left;
+
+    width: .48rem;
+    height: .42rem;
+}
+.footer-left span
+{
+    font-size: .2rem;
+
+    display: block;
+    float: left;
+
+    width: 100%;
+    margin-top: .16rem;
+
+    text-align: center;
+
+    color: #5fc0cd;
+}
+.footer-mid
+{
+    float: left;
+
+    width: 1.3rem;
+    height: 100%;
+
+    cursor: pointer;
+}
+.footer-mid img
+{
+    display: block;
+
+    width: .95rem;
+    height: .95rem;
+    margin: .04rem auto;
+}
+.footer-right
+{
+    float: right;
+
+    width: .48rem;
+    height: .87rem;
+    padding-top: .13rem;
+    padding-left: .82rem;
+
+    cursor: pointer;
+}
+.footer-right img
+{
+    display: block;
+    float: left;
+
+    width: .48rem;
+    height: .42rem;
+}
+.footer-right span
+{
+    font-size: .2rem;
+
+    display: block;
+    float: left;
+
+    width: 100%;
+    margin-top: .16rem;
+
+    text-align: center;
+
+    color: #5fc0cd;
+}
+@media screen and (min-width: 320px) and (max-width: 359px)
+{
+    html
+    {
+        font-size: 277.77%;
+    }
+}
+@media screen and (min-width: 360px) and (max-width:374px)
+{
+    html
+    {
+        font-size: 312.5%;
+    }
+}
+@media screen and (min-width: 375px) and (max-width:400px)
+{
+    html
+    {
+        font-size: 325.73%;
+    }
+}
+@media screen and (min-width:400px) and (max-width:449px)
+{
+    html
+    {
+        font-size: 359.375%;
+    }
+}
+@media screen and (min-width:450px) and (max-width:750px)
+{
+    html
+    {
+        font-size: 625%;
+    }
+}
+@media screen and (min-width:751px) and (max-width:1000px)
+{
+    html
+    {
+        font-size: 666.54%;
+    }
+}
+@media screen and (min-width:1000px) and (max-width:1100px)
+{
+    html
+    {
+        font-size: 888.60%;
+    }
+}
+@media screen and (min-width: 1100px)
+{
+    html
+    {
+        font-size: 625%;
+
+        min-width: 1000px;
+    }
+    .nav
+    {
+        font-size: .28rem;
+        line-height: .8rem;
+
+        position: relative;
+
+        width: 100%;
+        height: .8rem;
+
+        color: #afbac0;
+    }
+
+    .nav-left
+    {
+        background-image: url('images/sanjiao.png');
+        background-repeat: no-repeat;
+        background-position: 2.16rem ;
+        -webkit-background-size: .14rem .09rem;
+                background-size: .14rem .09rem;
+    }
+    .nav-mid
+    {
+        position: absolute;
+        left: 50%;
+
+        -webkit-transform: translate(-50%);
+            -ms-transform: translate(-50%);
+             -o-transform: translate(-50%);
+                transform: translate(-50%);
+
+        background-image: url('images/line.png'),url('images/line.png'),url('images/sanjiao.png');
+        background-repeat: no-repeat,no-repeat,no-repeat;
+        background-position: left,right,2.16rem;
+        -webkit-background-size: .01rem .66rem,.01rem .66rem,.14rem .09rem;
+                background-size: .01rem .66rem,.01rem .66rem,.14rem .09rem;
+    }
+    .nav-right
+    {
+        float: right !important;
+
+        background-image: url('images/sanjiao.png');
+        background-repeat: no-repeat;
+        background-position: 1.97rem ;
+        -webkit-background-size: .14rem .09rem;
+                background-size: .14rem .09rem;
+    }
+}
