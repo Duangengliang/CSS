@@ -124,6 +124,9 @@ html
 .bottom
 {
     position: relative;
+    height: 6.04rem;
+    border-bottom: 0.01rem solid #e1e5e7;
+
 }
 .skill
 {
@@ -175,6 +178,7 @@ html
     -webkit-background-size: .25rem .25rem ;
             background-size: .25rem .25rem;
 }
+
 table
 {
     position: absolute;
@@ -220,7 +224,6 @@ td
 }
 .footer
 {
-    border-top: .01rem solid #e1e5e7;
     overflow: hidden;
     position: fixed;
     bottom: 0;
